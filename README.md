@@ -13,13 +13,18 @@ Description: A Python-based tool that analyzes password strength using common se
 
 # Installation:
   steps:
-    - git clone https://github.com/Harish14525/password-strength-analyzer.git
-    - cd password-strength-analyzer
-    - python password_checker.py
+  
+   - git clone https://github.com/Harish14525/password-strength-analyzer.git
+    
+   - cd password-strength-analyzer
+     
+   - python password_checker.py
 
 # Usage:
   interactive: "python password_checker.py"
+  
   with_password: "python password_checker.py --password 'S@fep4ss123'"
+  
   test_mode: "python password_checker.py --test"
 
 Example_output: 
@@ -64,6 +69,7 @@ Example_output:
 
 # Disclaimer: 
   This tool is for educational purposes only.
+  
   Do not use it to test other people’s passwords or systems without permission.
 
 Author: Harish Babu G
