@@ -72,5 +72,8 @@ Description: A Python-based tool that analyzes password strength using common se
   
   Do not use it to test other people’s passwords or systems without permission.
 
+  -----
+
 Author: Harish Babu G
+
 Date: September 2025
