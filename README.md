@@ -1,7 +1,8 @@
-"Name:" Password Strength Analyzer
-'Description:' A Python-based tool that analyzes password strength using common security rules (length, case, digits, special characters, uniqueness, and common-password detection). Includes a command-line interface and sample outputs.
+Name: Password Strength Analyzer
 
-# features:
+Description: A Python-based tool that analyzes password strength using common security rules (length, case, digits, special characters, uniqueness, and common-password detection). Includes a command-line interface and sample outputs.
+
+# Features:
   - Checks password length (>= 8, >= 12)
   - Detects uppercase, lowercase, digits, and special characters
   - Warns if the password is common or weak
@@ -10,18 +11,18 @@
   - Provides actionable suggestions to improve strength
   - CLI modes: interactive, --password flag, and --test samples
 
-# installation:
+# Installation:
   steps:
     - git clone https://github.com/Harish14525/password-strength-analyzer.git
     - cd password-strength-analyzer
     - python password_checker.py
 
-# usage:
+# Usage:
   interactive: "python password_checker.py"
   with_password: "python password_checker.py --password 'S@fep4ss123'"
   test_mode: "python password_checker.py --test"
 
-example_output: 
+Example_output: 
 ```
   ============================================================
   Password Strength Analysis
@@ -44,26 +45,26 @@ example_output:
    - Longer passwords (12+ chars) are much stronger.
   ============================================================
 ```
-# screenshots:
+# Screenshots:
   - name: Weak Password
     file: screenshot_password123.png
   - name: Strong Password
     file: screenshot_H@rish@2K5.png
 
-# structure:
+# Structure:
   - password_checker.py
   - README.md
   - screenshot_password123.png
   - screenshot_Satfep4ss123.png
 
-# learning_outcome:
+# Learning_outcome:
   - Understand password vulnerabilities
   - Apply Python string methods (any(), isupper(), isdigit(), etc.)
   - Gain practical experience in building a cybersecurity tool
 
-# disclaimer: 
+# Disclaimer: 
   This tool is for educational purposes only.
   Do not use it to test other people’s passwords or systems without permission.
 
-author: Harish Babu G
-date: September 2025
+Author: Harish Babu G
+Date: September 2025
