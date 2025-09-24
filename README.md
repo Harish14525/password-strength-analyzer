@@ -27,7 +27,7 @@ Description: A Python-based tool that analyzes password strength using common se
   
   test_mode: "python password_checker.py --test"
 
-Example_output: 
+# Example_output: 
 ```
   ============================================================
   Password Strength Analysis
